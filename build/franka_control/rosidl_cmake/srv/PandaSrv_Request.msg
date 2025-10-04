@@ -1,0 +1,2 @@
+# Request
+std_msgs/Float64MultiArray grasps # Flattened grasps. each grasp has x y z angle width label

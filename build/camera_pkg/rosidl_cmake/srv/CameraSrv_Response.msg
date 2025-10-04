@@ -1,0 +1,5 @@
+
+# Response
+sensor_msgs/Image rgb_image
+sensor_msgs/Image depth_image
+builtin_interfaces/Time timestamp

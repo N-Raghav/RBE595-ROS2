@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from franka_control/srv/PandaSrv.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float64.idl"
+#include "std_msgs/msg/Float64MultiArray.idl"
+
+module franka_control {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct PandaSrv_Request {
+      @verbatim (language="comment", text=
+        "Flattened grasps. each grasp has x y z angle width label")
+      std_msgs::msg::Float64MultiArray grasps;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct PandaSrv_Response {
+      std_msgs::msg::Float64 flag;
+    };
+  };
+};

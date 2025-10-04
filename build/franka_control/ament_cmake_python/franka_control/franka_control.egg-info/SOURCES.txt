@@ -1,0 +1,6 @@
+setup.py
+franka_control/__init__.py
+franka_control.egg-info/PKG-INFO
+franka_control.egg-info/SOURCES.txt
+franka_control.egg-info/dependency_links.txt
+franka_control.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+[0.010s] Invoking command in '/home/merlabros2/RBE595/build/camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/merlabros2/ws_moveit2/install/moveit_configs_utils:/home/merlabros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/merlabros2/RBE595/src/camera_pkg -DCMAKE_INSTALL_PREFIX=/home/merlabros2/RBE595/install/camera_pkg
+[0.017s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.094s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.099s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.100s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.128s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.293s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.645s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.659s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.659s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.660s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.700s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):
+[0.700s]   add_custom_target cannot create target "ament_cmake_python_copy_camera_pkg"
+[0.700s]   because another target with the same name already exists.  The existing
+[0.700s]   target is a custom target created in source directory
+[0.700s]   "/home/merlabros2/RBE595/src/camera_pkg".  See documentation for policy
+[0.700s]   CMP0002 for more details.
+[0.700s] Call Stack (most recent call first):
+[0.700s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.700s]   CMakeLists.txt:19 (ament_python_install_package)
+[0.700s] 
+[0.700s] [0m
+[0.700s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):
+[0.700s]   add_custom_target cannot create target
+[0.700s]   "ament_cmake_python_build_camera_pkg_egg" because another target with the
+[0.700s]   same name already exists.  The existing target is a custom target created
+[0.700s]   in source directory "/home/merlabros2/RBE595/src/camera_pkg".  See
+[0.700s]   documentation for policy CMP0002 for more details.
+[0.700s] Call Stack (most recent call first):
+[0.700s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.700s]   CMakeLists.txt:19 (ament_python_install_package)
+[0.700s] 
+[0.700s] [0m
+[0.701s] -- Configuring incomplete, errors occurred!
+[0.701s] See also "/home/merlabros2/RBE595/build/camera_pkg/CMakeFiles/CMakeOutput.log".
+[0.705s] Invoked command in '/home/merlabros2/RBE595/build/camera_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/merlabros2/ws_moveit2/install/moveit_configs_utils:/home/merlabros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/merlabros2/RBE595/src/camera_pkg -DCMAKE_INSTALL_PREFIX=/home/merlabros2/RBE595/install/camera_pkg

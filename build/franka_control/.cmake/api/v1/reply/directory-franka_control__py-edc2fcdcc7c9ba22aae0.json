@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "franka_control__py",
+		"source" : "/home/merlabros2/RBE595/build/franka_control/franka_control__py"
+	}
+}

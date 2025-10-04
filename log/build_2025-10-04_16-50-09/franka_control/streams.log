@@ -1,0 +1,59 @@
+[0.008s] Invoking command in '/home/merlabros2/RBE595/build/franka_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/merlabros2/ws_moveit2/install/moveit_configs_utils:/home/merlabros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/merlabros2/RBE595/build/franka_control -- -j32 -l32
+[0.039s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.049s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.051s] [  6%] Built target ament_cmake_python_copy_franka_control
+[0.162s] running egg_info
+[0.163s] creating franka_control.egg-info
+[0.163s] writing franka_control.egg-info/PKG-INFO
+[0.163s] writing dependency_links to franka_control.egg-info/dependency_links.txt
+[0.163s] writing top-level names to franka_control.egg-info/top_level.txt
+[0.163s] writing manifest file 'franka_control.egg-info/SOURCES.txt'
+[0.164s] reading manifest file 'franka_control.egg-info/SOURCES.txt'
+[0.164s] writing manifest file 'franka_control.egg-info/SOURCES.txt'
+[0.175s] [  6%] Built target franka_control__cpp
+[0.180s] [  6%] Built target ament_cmake_python_build_franka_control_egg
+[0.181s] [  9%] [32mBuilding C object CMakeFiles/franka_control__rosidl_generator_c.dir/rosidl_generator_c/franka_control/srv/detail/panda_srv__functions.c.o[0m
+[0.182s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.182s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.184s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.215s] [ 21%] [32m[1mLinking C shared library libfranka_control__rosidl_generator_c.so[0m
+[0.243s] [ 21%] Built target franka_control__rosidl_generator_c
+[0.252s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.252s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.252s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.298s] [ 33%] [32mBuilding CXX object CMakeFiles/franka_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_control/srv/panda_srv__type_support.cpp.o[0m
+[0.307s] [ 36%] [32mBuilding CXX object CMakeFiles/franka_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_control/srv/detail/panda_srv__type_support.cpp.o[0m
+[0.318s] [ 39%] [32mBuilding CXX object CMakeFiles/franka_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_control/srv/detail/dds_fastrtps/panda_srv__type_support.cpp.o[0m
+[0.372s] [ 42%] [32mBuilding CXX object CMakeFiles/franka_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_control/srv/panda_srv__type_support.cpp.o[0m
+[0.385s] [ 45%] [32mBuilding C object CMakeFiles/franka_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_control/srv/detail/panda_srv__type_support.c.o[0m
+[0.385s] [ 48%] [32mBuilding CXX object CMakeFiles/franka_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_control/srv/detail/panda_srv__type_support_c.cpp.o[0m
+[0.395s] [ 51%] [32m[1mLinking CXX shared library libfranka_control__rosidl_typesupport_c.so[0m
+[0.412s] [ 54%] [32m[1mLinking C shared library libfranka_control__rosidl_typesupport_introspection_c.so[0m
+[0.415s] [ 57%] [32m[1mLinking CXX shared library libfranka_control__rosidl_typesupport_cpp.so[0m
+[0.428s] [ 57%] Built target franka_control__rosidl_typesupport_c
+[0.434s] [ 57%] Built target franka_control__rosidl_typesupport_introspection_c
+[0.442s] [ 57%] Built target franka_control__rosidl_typesupport_cpp
+[0.457s] [ 60%] [32mBuilding CXX object CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o[0m
+[0.468s] [ 63%] [32m[1mLinking CXX shared library libfranka_control__rosidl_typesupport_introspection_cpp.so[0m
+[0.486s] [ 66%] [32m[1mLinking CXX shared library libfranka_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.506s] [ 66%] Built target franka_control__rosidl_typesupport_introspection_cpp
+[0.527s] [ 69%] [32m[1mLinking CXX shared library libfranka_control__rosidl_typesupport_fastrtps_c.so[0m
+[0.527s] [ 69%] Built target franka_control__rosidl_typesupport_fastrtps_cpp
+[0.570s] [ 69%] Built target franka_control__rosidl_typesupport_fastrtps_c
+[0.585s] [ 69%] Built target franka_control
+[0.597s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.764s] [ 72%] Built target franka_control__py
+[0.779s] [ 75%] [32mBuilding C object CMakeFiles/franka_control__rosidl_generator_py.dir/rosidl_generator_py/franka_control/srv/_panda_srv_s.c.o[0m
+[0.827s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/franka_control/libfranka_control__rosidl_generator_py.so[0m
+[0.852s] [ 78%] Built target franka_control__rosidl_generator_py
+[0.870s] [ 84%] [32mBuilding C object CMakeFiles/franka_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/franka_control/_franka_control_s.ep.rosidl_typesupport_c.c.o[0m
+[0.870s] [ 84%] [32mBuilding C object CMakeFiles/franka_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/franka_control/_franka_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.870s] [ 87%] [32mBuilding C object CMakeFiles/franka_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/franka_control/_franka_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.919s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/franka_control/franka_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.919s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/franka_control/franka_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.921s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/franka_control/franka_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[0.944s] [ 96%] Built target franka_control__rosidl_typesupport_introspection_c__pyext
+[0.947s] [ 96%] Built target franka_control__rosidl_typesupport_fastrtps_c__pyext
+[0.949s] [ 96%] Built target franka_control__rosidl_typesupport_c__pyext
+[4.511s] [100%] [32m[1mLinking CXX executable panda_control_node[0m
+[4.747s] [100%] Built target panda_control_node

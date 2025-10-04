@@ -1,0 +1,6 @@
+{
+  "package_name": "franka_control",
+  "non_idl_tuples": [
+    "/home/merlabros2/RBE595/src/franka_control:srv/PandaSrv.srv"
+  ]
+}

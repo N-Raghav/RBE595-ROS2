@@ -1,0 +1,1 @@
+Invoking command in '/home/merlabros2/RBE595/build/franka_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/merlabros2/ws_moveit2/install/moveit_configs_utils:/home/merlabros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/merlabros2/RBE595/build/franka_control -- -j32 -l32
