@@ -1,0 +1,26 @@
+[0.439s] Invoking command in '/home/merlabros2/RBE595/build/camera_module': CMAKE_PREFIX_PATH=/home/merlabros2/RBE595/install/camera_interfaces:/home/merlabros2/RBE595/install/franka_moveit_config:/home/merlabros2/RBE595/install/franka_control LD_LIBRARY_PATH=/home/merlabros2/RBE595/install/camera_interfaces/lib:/home/merlabros2/RBE595/install/franka_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/merlabros2/RBE595/build/camera_module/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/merlabros2/RBE595/install/camera_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/merlabros2/RBE595/build/camera_module/build --no-deps symlink_data
+[0.605s] running develop
+[0.659s] /home/merlabros2/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 2.22.1ubuntu1 is an invalid version and will not be supported in a future release
+[0.660s]   warnings.warn(
+[0.703s] running egg_info
+[0.703s] creating camera_module.egg-info
+[0.708s] writing camera_module.egg-info/PKG-INFO
+[0.709s] writing dependency_links to camera_module.egg-info/dependency_links.txt
+[0.709s] writing entry points to camera_module.egg-info/entry_points.txt
+[0.709s] writing requirements to camera_module.egg-info/requires.txt
+[0.709s] writing top-level names to camera_module.egg-info/top_level.txt
+[0.709s] writing manifest file 'camera_module.egg-info/SOURCES.txt'
+[0.720s] reading manifest file 'camera_module.egg-info/SOURCES.txt'
+[0.721s] writing manifest file 'camera_module.egg-info/SOURCES.txt'
+[0.727s] running build_ext
+[0.727s] Creating /home/merlabros2/RBE595/install/camera_module/lib/python3.10/site-packages/camera-module.egg-link (link to .)
+[0.727s] Installing camera_node script to /home/merlabros2/RBE595/install/camera_module/lib/camera_module
+[0.727s] 
+[0.727s] Installed /home/merlabros2/RBE595/build/camera_module
+[0.727s] running symlink_data
+[0.727s] creating /home/merlabros2/RBE595/install/camera_module/share/ament_index
+[0.727s] creating /home/merlabros2/RBE595/install/camera_module/share/ament_index/resource_index
+[0.727s] creating /home/merlabros2/RBE595/install/camera_module/share/ament_index/resource_index/packages
+[0.727s] symbolically linking /home/merlabros2/RBE595/build/camera_module/resource/camera_module -> /home/merlabros2/RBE595/install/camera_module/share/ament_index/resource_index/packages
+[0.728s] symbolically linking /home/merlabros2/RBE595/build/camera_module/package.xml -> /home/merlabros2/RBE595/install/camera_module/share/camera_module
+[0.746s] Invoked command in '/home/merlabros2/RBE595/build/camera_module' returned '0': CMAKE_PREFIX_PATH=/home/merlabros2/RBE595/install/camera_interfaces:/home/merlabros2/RBE595/install/franka_moveit_config:/home/merlabros2/RBE595/install/franka_control LD_LIBRARY_PATH=/home/merlabros2/RBE595/install/camera_interfaces/lib:/home/merlabros2/RBE595/install/franka_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/merlabros2/RBE595/build/camera_module/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/merlabros2/RBE595/install/camera_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/merlabros2/RBE595/build/camera_module/build --no-deps symlink_data

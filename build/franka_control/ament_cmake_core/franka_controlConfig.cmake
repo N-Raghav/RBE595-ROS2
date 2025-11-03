@@ -16,7 +16,7 @@ set(_franka_control_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT franka_control_FIND_QUIETLY)
-  message(STATUS "Found franka_control: 0.0.0 (${franka_control_DIR})")
+  message(STATUS "Found franka_control: 0.0.1 (${franka_control_DIR})")
 endif()
 
 # warn when using a deprecated package

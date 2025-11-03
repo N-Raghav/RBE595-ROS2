@@ -1,6 +1,0 @@
-{
-  "package_name": "camera_pkg",
-  "non_idl_tuples": [
-    "/home/merlabros2/RBE595/src/camera_pkg:srv/CameraSrv.srv"
-  ]
-}

@@ -1,0 +1,43 @@
+Commands 
+Source commands
+source /opt/ros/humble/setup.bash
+source ~/RBE595/install/setup.bash
+
+
+
+cd ~/RBE595
+rm -rf build/ install/ log/
+source /opt/ros/humble/setup.bash
+colcon build --packages-select franka_control --symlink-install
+ros2 interface show franka_control/srv/PandaSrv
+
+#Simulation commands
+source install/setup.bash
+ros2 launch franka_moveit_config demo.launch.py use_fake_hardware:=true rviz:=true planning_pipeline:=ompl
+source ~/RBE595/install/setup.bash
+ros2 run franka_control panda_control_node \
+  --ros-args -p ee_link:=panda_link8 -p approach_distance:=0.05 -p retreat_distance:=0.05
+ros2 run tf2_ros tf2_echo panda_link8 panda_hand_tcp
+ros2 service call /panda_control_service franka_control/srv/PandaSrv \
+"{grasps: {data: [0.4, 0.0, 0.2, 0.0, 0.035, 1]}}"
+
+################################################################################################
+#Real Robot commands
+ros2 launch franka_moveit_config demo.launch.py \
+  robot_ip:=172.16.0.2 \
+  use_fake_hardware:=false \
+  rviz:=true \
+  planning_pipeline:=ompl
+
+source ~/RBE595/install/setup.bash
+ros2 run franka_control panda_control_node \
+  --ros-args -p robot_ip:=172.16.0.2 \
+  -p use_fake_hardware:=false \
+  -p ee_link:=panda_link8 \
+  -p approach_distance:=0.05 \
+  -p retreat_distance:=0.05
+
+ros2 run tf2_ros tf2_echo panda_link8 panda_hand_tcp
+
+ros2 service call /panda_control_service franka_control/srv/PandaSrv \
+"{grasps: {data: [0.4, 0.0, 0.2, 0.0, 0.035, 1]}}"

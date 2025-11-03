@@ -1,13 +1,19 @@
 {
-    "configurations": [
-        {
-            "name": "ROS",
-            "intelliSenseMode": "linux-gcc-x64",
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "compileCommands": "${workspaceFolder}/build/franka_control/compile_commands.json"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "ROS2",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**",
+        "${workspaceFolder}/install/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
 }

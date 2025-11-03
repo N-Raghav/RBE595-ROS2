@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+camera_module/__init__.py
+camera_module/calibrate_camera.py
+camera_module/camera.py
+camera_module/camera_node.py
+camera_module/device.py
+camera_module.egg-info/PKG-INFO
+camera_module.egg-info/SOURCES.txt
+camera_module.egg-info/dependency_links.txt
+camera_module.egg-info/entry_points.txt
+camera_module.egg-info/requires.txt
+camera_module.egg-info/top_level.txt
+camera_module.egg-info/zip-safe
+resource/camera_module

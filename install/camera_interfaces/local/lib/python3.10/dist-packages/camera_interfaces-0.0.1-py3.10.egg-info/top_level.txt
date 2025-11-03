@@ -1,0 +1,1 @@
+/home/merlabros2/RBE595/build/camera_interfaces/ament_cmake_python/camera_interfaces/camera_interfaces.egg-info/top_level.txt

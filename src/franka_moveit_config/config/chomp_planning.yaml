@@ -1,13 +1,14 @@
-planning_plugins:
-  - chomp_interface/CHOMPPlanner
-# The order of the elements in the adapter corresponds to the order they are processed by the motion planning pipeline.
-request_adapters:
-  - default_planning_request_adapters/ResolveConstraintFrames
-  - default_planning_request_adapters/ValidateWorkspaceBounds
-  - default_planning_request_adapters/CheckStartStateBounds
-  - default_planning_request_adapters/CheckStartStateCollision
-response_adapters:
-  - default_planning_response_adapters/AddTimeOptimalParameterization
+planning_plugins: chomp_interface/CHOMPPlanner
+
+# Request and response adapters must be single strings in new MoveIt2 versions
+request_adapters: >
+  default_planning_request_adapters/ResolveConstraintFrames,
+  default_planning_request_adapters/ValidateWorkspaceBounds,
+  default_planning_request_adapters/CheckStartStateBounds,
+  default_planning_request_adapters/CheckStartStateCollision
+
+response_adapters: default_planning_response_adapters/AddTimeOptimalParameterization
+
 planning_time_limit: 10.0
 max_iterations: 200
 max_iterations_after_collision_free: 5

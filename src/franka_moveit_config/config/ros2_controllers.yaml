@@ -1,19 +1,13 @@
-# This config file is used by ros2_control
+# config/ros2_controllers.yaml
 controller_manager:
   ros__parameters:
-    update_rate: 100  # Hz
-
-    panda_arm_controller:
-      type: joint_trajectory_controller/JointTrajectoryController
-
-
-    hand_controller:
-      type: position_controllers/GripperActionController
-      #type: franka_gripper/FrankaGripper
-
+    update_rate: 100
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
+
+    panda_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
 
 panda_arm_controller:
   ros__parameters:
@@ -25,11 +19,5 @@ panda_arm_controller:
       - panda_joint5
       - panda_joint6
       - panda_joint7
-    command_interfaces:
-      - position
-    state_interfaces:
-      - position
-      - velocity
-hand_controller:
-  ros__parameters:
-    joint: panda_finger_joint1
+    command_interfaces: [position]
+    state_interfaces: [position, velocity]

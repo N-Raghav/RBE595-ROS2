@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -586,25 +586,25 @@ lifecycle_msgs_DIR:PATH=/opt/ros/humble/share/lifecycle_msgs/cmake
 message_filters_DIR:PATH=/opt/ros/humble/share/message_filters/cmake
 
 //The directory containing a CMake configuration file for moveit_core.
-moveit_core_DIR:PATH=/home/merlabros2/ws_moveit2/install/moveit_core/share/moveit_core/cmake
+moveit_core_DIR:PATH=/opt/ros/humble/share/moveit_core/cmake
 
 //The directory containing a CMake configuration file for moveit_msgs.
 moveit_msgs_DIR:PATH=/opt/ros/humble/share/moveit_msgs/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_move_group.
-moveit_ros_move_group_DIR:PATH=/home/merlabros2/ws_moveit2/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake
+moveit_ros_move_group_DIR:PATH=/opt/ros/humble/share/moveit_ros_move_group/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_occupancy_map_monitor.
-moveit_ros_occupancy_map_monitor_DIR:PATH=/home/merlabros2/ws_moveit2/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake
+moveit_ros_occupancy_map_monitor_DIR:PATH=/opt/ros/humble/share/moveit_ros_occupancy_map_monitor/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_planning.
-moveit_ros_planning_DIR:PATH=/home/merlabros2/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake
+moveit_ros_planning_DIR:PATH=/opt/ros/humble/share/moveit_ros_planning/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_planning_interface.
-moveit_ros_planning_interface_DIR:PATH=/home/merlabros2/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake
+moveit_ros_planning_interface_DIR:PATH=/opt/ros/humble/share/moveit_ros_planning_interface/cmake
 
 //The directory containing a CMake configuration file for moveit_ros_warehouse.
-moveit_ros_warehouse_DIR:PATH=/home/merlabros2/ws_moveit2/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake
+moveit_ros_warehouse_DIR:PATH=/opt/ros/humble/share/moveit_ros_warehouse/cmake
 
 //The directory containing a CMake configuration file for object_recognition_msgs.
 object_recognition_msgs_DIR:PATH=/opt/ros/humble/share/object_recognition_msgs/cmake
@@ -781,7 +781,7 @@ spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
 spdlog_vendor_DIR:PATH=/opt/ros/humble/share/spdlog_vendor/cmake
 
 //The directory containing a CMake configuration file for srdfdom.
-srdfdom_DIR:PATH=/home/merlabros2/ws_moveit2/install/srdfdom/share/srdfdom/cmake
+srdfdom_DIR:PATH=/opt/ros/humble/share/srdfdom/cmake
 
 //The directory containing a CMake configuration file for statistics_msgs.
 statistics_msgs_DIR:PATH=/opt/ros/humble/share/statistics_msgs/cmake
@@ -1149,6 +1149,8 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=4
 __pkg_config_arguments_PC_CURL:INTERNAL=QUIET;libcurl
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked_PC_CURL:INTERNAL=1

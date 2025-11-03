@@ -1,0 +1,1 @@
+/home/merlabros2/RBE595/build/franka_control/rosidl_generator_py/franka_control/__init__.py

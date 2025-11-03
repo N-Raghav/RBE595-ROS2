@@ -315,17 +315,17 @@ franka_control__rosidl_typesupport_cpp/fast:
 .PHONY : franka_control__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_franka_control
+# Target rules for targets named ament_cmake_python_symlink_franka_control
 
 # Build rule for target.
-ament_cmake_python_copy_franka_control: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_franka_control
-.PHONY : ament_cmake_python_copy_franka_control
+ament_cmake_python_symlink_franka_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_franka_control
+.PHONY : ament_cmake_python_symlink_franka_control
 
 # fast build rule for target.
-ament_cmake_python_copy_franka_control/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_franka_control.dir/build.make CMakeFiles/ament_cmake_python_copy_franka_control.dir/build
-.PHONY : ament_cmake_python_copy_franka_control/fast
+ament_cmake_python_symlink_franka_control/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_franka_control.dir/build.make CMakeFiles/ament_cmake_python_symlink_franka_control.dir/build
+.PHONY : ament_cmake_python_symlink_franka_control/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_franka_control_egg
@@ -720,7 +720,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_franka_control_egg"
-	@echo "... ament_cmake_python_copy_franka_control"
+	@echo "... ament_cmake_python_symlink_franka_control"
 	@echo "... franka_control"
 	@echo "... franka_control__cpp"
 	@echo "... franka_control__py"

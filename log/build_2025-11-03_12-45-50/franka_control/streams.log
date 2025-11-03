@@ -1,0 +1,126 @@
+[0.007s] Invoking command in '/home/merlabros2/RBE595/build/franka_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/merlabros2/RBE595/build/franka_control -- -j32 -l32
+[0.035s] [  3%] Built target franka_control__cpp
+[0.037s] [ 12%] Built target franka_control__rosidl_generator_c
+[0.041s] [ 12%] Built target ament_cmake_python_symlink_franka_control
+[0.048s] [ 21%] Built target franka_control__rosidl_typesupport_introspection_cpp
+[0.050s] [ 30%] Built target franka_control__rosidl_typesupport_fastrtps_cpp
+[0.050s] [ 39%] Built target franka_control__rosidl_typesupport_cpp
+[0.051s] [ 48%] Built target franka_control__rosidl_typesupport_introspection_c
+[0.051s] [ 57%] Built target franka_control__rosidl_typesupport_c
+[0.051s] [ 66%] Built target franka_control__rosidl_typesupport_fastrtps_c
+[0.062s] [ 66%] Built target franka_control
+[0.074s] [ 69%] Built target franka_control__py
+[0.083s] [ 72%] [32mBuilding CXX object CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o[0m
+[0.086s] [ 78%] Built target franka_control__rosidl_generator_py
+[0.100s] [ 84%] Built target franka_control__rosidl_typesupport_fastrtps_c__pyext
+[0.101s] [ 96%] Built target franka_control__rosidl_typesupport_introspection_c__pyext
+[0.101s] [ 96%] Built target franka_control__rosidl_typesupport_c__pyext
+[0.211s] running egg_info
+[0.217s] writing franka_control.egg-info/PKG-INFO
+[0.217s] writing dependency_links to franka_control.egg-info/dependency_links.txt
+[0.217s] writing top-level names to franka_control.egg-info/top_level.txt
+[0.239s] reading manifest file 'franka_control.egg-info/SOURCES.txt'
+[0.239s] writing manifest file 'franka_control.egg-info/SOURCES.txt'
+[0.258s] [ 96%] Built target ament_cmake_python_build_franka_control_egg
+[4.105s] [100%] [32m[1mLinking CXX executable panda_control_node[0m
+[4.325s] [100%] Built target panda_control_node
+[4.331s] Invoked command in '/home/merlabros2/RBE595/build/franka_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/merlabros2/RBE595/build/franka_control -- -j32 -l32
+[4.332s] Invoking command in '/home/merlabros2/RBE595/build/franka_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/merlabros2/RBE595/build/franka_control
+[4.336s] -- Install configuration: ""
+[4.336s] -- Execute custom install script
+[4.336s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/ament_index/resource_index/rosidl_interfaces/franka_control
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/msg/rosidl_generator_c__visibility_control.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__functions.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__struct.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__type_support.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/panda_srv.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/environment/library_path.sh
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/environment/library_path.dsv
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__rosidl_typesupport_fastrtps_c.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__builder.hpp
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__struct.hpp
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__traits.hpp
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__type_support.hpp
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/panda_srv.hpp
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__rosidl_typesupport_introspection_c.h
+[4.337s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/include/franka_control/franka_control/srv/detail/panda_srv__rosidl_typesupport_introspection_cpp.hpp
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/environment/pythonpath.sh
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/environment/pythonpath.dsv
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control-0.0.1-py3.10.egg-info/PKG-INFO
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control-0.0.1-py3.10.egg-info/SOURCES.txt
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control-0.0.1-py3.10.egg-info/dependency_links.txt
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control-0.0.1-py3.10.egg-info/top_level.txt
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/__init__.py
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/_franka_control_s.ep.rosidl_typesupport_c.c
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/_franka_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/_franka_control_s.ep.rosidl_typesupport_introspection_c.c
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/franka_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/franka_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/franka_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/libfranka_control__rosidl_generator_py.so
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/srv/__init__.py
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/srv/_panda_srv.py
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/srv/_panda_srv_s.c
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/franka_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.338s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/franka_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/franka_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/srv/PandaSrv.idl
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/srv/PandaSrv.srv
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/srv/PandaSrv_Request.msg
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/srv/PandaSrv_Response.msg
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/lib/franka_control/panda_control_node
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/ament_index/resource_index/package_run_dependencies/franka_control
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/ament_index/resource_index/parent_prefix_path/franka_control
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/environment/ament_prefix_path.sh
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/environment/ament_prefix_path.dsv
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/environment/path.sh
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/environment/path.dsv
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/local_setup.bash
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/local_setup.sh
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/local_setup.zsh
+[4.339s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/local_setup.dsv
+[4.339s] -- Symlinking: /home/merlabros2/RBE595/install/franka_control/share/franka_control/package.dsv
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/ament_index/resource_index/packages/franka_control
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/rosidl_cmake-extras.cmake
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/ament_cmake_export_libraries-extras.cmake
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/ament_cmake_export_targets-extras.cmake
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_controlConfig.cmake
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_controlConfig-version.cmake
+[4.345s] -- Up-to-date symlink: /home/merlabros2/RBE595/install/franka_control/share/franka_control/package.xml
+[4.345s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/lib/libfranka_control__rosidl_generator_c.so
+[4.345s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/lib/libfranka_control__rosidl_typesupport_fastrtps_c.so
+[4.345s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/lib/libfranka_control__rosidl_typesupport_fastrtps_cpp.so
+[4.345s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/lib/libfranka_control__rosidl_typesupport_introspection_c.so
+[4.346s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/lib/libfranka_control__rosidl_typesupport_c.so
+[4.346s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/lib/libfranka_control__rosidl_typesupport_introspection_cpp.so
+[4.346s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/lib/libfranka_control__rosidl_typesupport_cpp.so
+[4.360s] Listing '/home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control'...
+[4.361s] Listing '/home/merlabros2/RBE595/install/franka_control/local/lib/python3.10/dist-packages/franka_control/srv'...
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/lib/libfranka_control__rosidl_generator_py.so
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/export_franka_control__rosidl_generator_cExport.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/export_franka_control__rosidl_generator_cExport-noconfig.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/export_franka_control__rosidl_typesupport_fastrtps_cExport.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/export_franka_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/export_franka_control__rosidl_generator_cppExport.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/export_franka_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/export_franka_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_control__rosidl_typesupport_introspection_cExport.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_control__rosidl_typesupport_cExport.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_control__rosidl_typesupport_cExport-noconfig.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_control__rosidl_typesupport_introspection_cppExport.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_control__rosidl_typesupport_cppExport.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/franka_control__rosidl_typesupport_cppExport-noconfig.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/export_franka_control__rosidl_generator_pyExport.cmake
+[4.363s] -- Up-to-date: /home/merlabros2/RBE595/install/franka_control/share/franka_control/cmake/export_franka_control__rosidl_generator_pyExport-noconfig.cmake
+[4.365s] Invoked command in '/home/merlabros2/RBE595/build/franka_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/merlabros2/RBE595/build/franka_control

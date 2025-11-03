@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-014ccbc0b7ab79e1b368.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "camera_interfaces__py",
+					"jsonFile" : "directory-camera_interfaces__py-00b7167bf155b0381bc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/merlabros2/RBE595/build/camera_interfaces/camera_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "camera_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_camera_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_camera_interfaces_egg-32fad234b6f7796112c5.json",
+					"name" : "ament_cmake_python_build_camera_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_camera_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_camera_interfaces-3b7bc28c074aa10990fe.json",
+					"name" : "ament_cmake_python_symlink_camera_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces-e1869489766142f99a6c.json",
+					"name" : "camera_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__cpp-9e41d3948fc460cd51e5.json",
+					"name" : "camera_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "camera_interfaces__py::@43b983673937e0cdccbc",
+					"jsonFile" : "target-camera_interfaces__py-1f94ec39b9a053c15eb5.json",
+					"name" : "camera_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_generator_c-56594badd4a04f454b6c.json",
+					"name" : "camera_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_generator_py-c47affae199d935dd56b.json",
+					"name" : "camera_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_typesupport_c-07b06846647746a60fb5.json",
+					"name" : "camera_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_typesupport_c__pyext-6bcf4e535b5c2ef06ff4.json",
+					"name" : "camera_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_typesupport_cpp-17f489ee75886576b087.json",
+					"name" : "camera_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_typesupport_fastrtps_c-423f3752bc24b95da584.json",
+					"name" : "camera_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_typesupport_fastrtps_c__pyext-1e445eb51c07b7c37fdf.json",
+					"name" : "camera_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_typesupport_fastrtps_cpp-45187447e04798e60d49.json",
+					"name" : "camera_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_typesupport_introspection_c-9ac407edd124a5730e08.json",
+					"name" : "camera_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_typesupport_introspection_c__pyext-b8708501891dca5849e3.json",
+					"name" : "camera_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces__rosidl_typesupport_introspection_cpp-c2d7ea001abf6a9f5ff8.json",
+					"name" : "camera_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interfaces_uninstall-5e3f4a39900d94917a1e.json",
+					"name" : "camera_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-df27972e5b2cff9f9167.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/merlabros2/RBE595/build/camera_interfaces",
+		"source" : "/home/merlabros2/RBE595/src/camera_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

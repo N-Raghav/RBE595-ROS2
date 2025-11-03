@@ -1,0 +1,1 @@
+/home/merlabros2/RBE595/build/franka_control/ament_cmake_core/franka_controlConfig.cmake

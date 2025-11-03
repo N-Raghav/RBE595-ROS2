@@ -1,0 +1,1 @@
+/home/merlabros2/RBE595/build/camera_interfaces/rosidl_generator_py/camera_interfaces/__init__.py

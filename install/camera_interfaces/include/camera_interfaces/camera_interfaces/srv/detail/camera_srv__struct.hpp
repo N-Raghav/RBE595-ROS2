@@ -1,0 +1,1 @@
+/home/merlabros2/RBE595/build/camera_interfaces/rosidl_generator_cpp/camera_interfaces/srv/detail/camera_srv__struct.hpp

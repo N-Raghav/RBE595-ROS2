@@ -1,0 +1,43 @@
+[0.006s] Invoking command in '/home/merlabros2/RBE595/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/merlabros2/RBE595/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/merlabros2/RBE595/install/franka_description
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.075s] -- The CXX compiler identification is GNU 11.4.0
+[0.079s] -- Detecting C compiler ABI info
+[0.117s] -- Detecting C compiler ABI info - done
+[0.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.120s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.122s] -- Detecting CXX compiler ABI info
+[0.166s] -- Detecting CXX compiler ABI info - done
+[0.170s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.170s] -- Detecting CXX compile features
+[0.170s] -- Detecting CXX compile features - done
+[0.171s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.497s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.540s] -- Configuring done
+[0.541s] -- Generating done
+[0.542s] -- Build files have been written to: /home/merlabros2/RBE595/build/franka_description
+[0.544s] Invoked command in '/home/merlabros2/RBE595/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/merlabros2/RBE595/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/merlabros2/RBE595/install/franka_description
+[0.545s] Invoking command in '/home/merlabros2/RBE595/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/merlabros2/RBE595/build/franka_description -- -j32 -l32
+[0.566s] Invoked command in '/home/merlabros2/RBE595/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/merlabros2/RBE595/build/franka_description -- -j32 -l32
+[0.567s] Invoking command in '/home/merlabros2/RBE595/build/franka_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/merlabros2/RBE595/build/franka_description
+[0.570s] -- Install configuration: ""
+[0.570s] -- Execute custom install script
+[0.570s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/urdf/panda.ros2_control.xacro
+[0.575s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/urdf/panda_hand_control.xacro
+[0.579s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[0.583s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[0.586s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[0.591s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[0.595s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/environment/path.sh
+[0.598s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/environment/path.dsv
+[0.602s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/local_setup.bash
+[0.605s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/local_setup.sh
+[0.608s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/local_setup.zsh
+[0.613s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/local_setup.dsv
+[0.617s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/package.dsv
+[0.621s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[0.625s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[0.629s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[0.633s] -- Symlinking: /home/merlabros2/RBE595/install/franka_description/share/franka_description/package.xml
+[0.638s] Invoked command in '/home/merlabros2/RBE595/build/franka_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/merlabros2/RBE595/build/franka_description
