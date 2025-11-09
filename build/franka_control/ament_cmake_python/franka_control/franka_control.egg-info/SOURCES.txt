@@ -4,5 +4,3 @@ franka_control.egg-info/PKG-INFO
 franka_control.egg-info/SOURCES.txt
 franka_control.egg-info/dependency_links.txt
 franka_control.egg-info/top_level.txt
-franka_control/srv/__init__.py
-franka_control/srv/_panda_srv.py

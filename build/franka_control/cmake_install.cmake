@@ -1,4 +1,4 @@
-# Install script for directory: /home/merlabros2/RBE595/src/franka_control
+# Install script for directory: /home/merlabros2/RBE595/my_custom_franka_control_backup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

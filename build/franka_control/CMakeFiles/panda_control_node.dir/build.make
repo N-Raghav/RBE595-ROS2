@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/merlabros2/RBE595/src/franka_control
+CMAKE_SOURCE_DIR = /home/merlabros2/RBE595/my_custom_franka_control_backup
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/merlabros2/RBE595/build/franka_control
@@ -70,18 +70,18 @@ include CMakeFiles/panda_control_node.dir/progress.make
 include CMakeFiles/panda_control_node.dir/flags.make
 
 CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o: CMakeFiles/panda_control_node.dir/flags.make
-CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o: /home/merlabros2/RBE595/src/franka_control/src/panda_control_node.cpp
+CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o: /home/merlabros2/RBE595/my_custom_franka_control_backup/src/panda_control_node.cpp
 CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o: CMakeFiles/panda_control_node.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/merlabros2/RBE595/build/franka_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o -MF CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o.d -o CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o -c /home/merlabros2/RBE595/src/franka_control/src/panda_control_node.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o -MF CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o.d -o CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o -c /home/merlabros2/RBE595/my_custom_franka_control_backup/src/panda_control_node.cpp
 
 CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlabros2/RBE595/src/franka_control/src/panda_control_node.cpp > CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/merlabros2/RBE595/my_custom_franka_control_backup/src/panda_control_node.cpp > CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.i
 
 CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlabros2/RBE595/src/franka_control/src/panda_control_node.cpp -o CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/merlabros2/RBE595/my_custom_franka_control_backup/src/panda_control_node.cpp -o CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.s
 
 # Object files for target panda_control_node
 panda_control_node_OBJECTS = \
@@ -93,12 +93,12 @@ panda_control_node_EXTERNAL_OBJECTS =
 panda_control_node: CMakeFiles/panda_control_node.dir/src/panda_control_node.cpp.o
 panda_control_node: CMakeFiles/panda_control_node.dir/build.make
 panda_control_node: /opt/ros/humble/lib/libmoveit_move_group_interface.so.2.5.9
-panda_control_node: /opt/ros/humble/lib/libfranka_msgs__rosidl_typesupport_fastrtps_c.so
-panda_control_node: /opt/ros/humble/lib/libfranka_msgs__rosidl_typesupport_introspection_c.so
-panda_control_node: /opt/ros/humble/lib/libfranka_msgs__rosidl_typesupport_fastrtps_cpp.so
-panda_control_node: /opt/ros/humble/lib/libfranka_msgs__rosidl_typesupport_introspection_cpp.so
-panda_control_node: /opt/ros/humble/lib/libfranka_msgs__rosidl_typesupport_cpp.so
-panda_control_node: /opt/ros/humble/lib/libfranka_msgs__rosidl_generator_py.so
+panda_control_node: /home/merlabros2/RBE595/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_c.so
+panda_control_node: /home/merlabros2/RBE595/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_c.so
+panda_control_node: /home/merlabros2/RBE595/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_cpp.so
+panda_control_node: /home/merlabros2/RBE595/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_cpp.so
+panda_control_node: /home/merlabros2/RBE595/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_cpp.so
+panda_control_node: /home/merlabros2/RBE595/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_py.so
 panda_control_node: libfranka_control__rosidl_typesupport_cpp.so
 panda_control_node: /opt/ros/humble/lib/libmoveit_common_planning_interface_objects.so.2.5.9
 panda_control_node: /opt/ros/humble/lib/libmoveit_planning_scene_interface.so.2.5.9
@@ -331,8 +331,8 @@ panda_control_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.s
 panda_control_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 panda_control_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 panda_control_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
-panda_control_node: /opt/ros/humble/lib/libfranka_msgs__rosidl_typesupport_c.so
-panda_control_node: /opt/ros/humble/lib/libfranka_msgs__rosidl_generator_c.so
+panda_control_node: /home/merlabros2/RBE595/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_c.so
+panda_control_node: /home/merlabros2/RBE595/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_c.so
 panda_control_node: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
 panda_control_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
 panda_control_node: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
@@ -372,6 +372,6 @@ CMakeFiles/panda_control_node.dir/clean:
 .PHONY : CMakeFiles/panda_control_node.dir/clean
 
 CMakeFiles/panda_control_node.dir/depend:
-	cd /home/merlabros2/RBE595/build/franka_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/merlabros2/RBE595/src/franka_control /home/merlabros2/RBE595/src/franka_control /home/merlabros2/RBE595/build/franka_control /home/merlabros2/RBE595/build/franka_control /home/merlabros2/RBE595/build/franka_control/CMakeFiles/panda_control_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/merlabros2/RBE595/build/franka_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/merlabros2/RBE595/my_custom_franka_control_backup /home/merlabros2/RBE595/my_custom_franka_control_backup /home/merlabros2/RBE595/build/franka_control /home/merlabros2/RBE595/build/franka_control /home/merlabros2/RBE595/build/franka_control/CMakeFiles/panda_control_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/panda_control_node.dir/depend
 

@@ -311,43 +311,43 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/franka_control" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/franka_control" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/franka_control" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
 # install(DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_generator_c/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_generator_c/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_generator_c/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/franka_control/environment")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/franka_control/environment")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/franka_control/environment")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/franka_control/environment")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/franka_control/environment")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/franka_control/environment")
 
 # install(DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_fastrtps_c/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_fastrtps_c/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_fastrtps_c/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN_EXCLUDE" "*.cpp")
 
 # install(DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_generator_cpp/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_generator_cpp/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_generator_cpp/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.hpp")
 
 # install(DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_fastrtps_cpp/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_fastrtps_cpp/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_fastrtps_cpp/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN_EXCLUDE" "*.cpp")
 
 # install(DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_introspection_c/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_introspection_c/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_introspection_c/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.h")
 
 # install(DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_introspection_cpp/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_introspection_cpp/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_typesupport_introspection_cpp/franka_control/" "DESTINATION" "include/franka_control/franka_control" "PATTERN" "*.hpp")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/franka_control/environment")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/franka_control/environment")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/franka_control/environment")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/franka_control/environment")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/franka_control/environment")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/franka_control/environment")
 
 # install(DIRECTORY "/home/merlabros2/RBE595/build/franka_control/ament_cmake_python/franka_control/franka_control.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/franka_control-0.0.1-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/ament_cmake_python/franka_control/franka_control.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/franka_control-0.0.1-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/ament_cmake_python/franka_control/franka_control.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/franka_control-0.0.1-py3.10.egg-info")
 
 # install(DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_generator_py/franka_control/" "DESTINATION" "local/lib/python3.10/dist-packages/franka_control" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_generator_py/franka_control/" "DESTINATION" "local/lib/python3.10/dist-packages/franka_control" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "/home/merlabros2/RBE595/build/franka_control/rosidl_generator_py/franka_control/" "DESTINATION" "local/lib/python3.10/dist-packages/franka_control" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "franka_control__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/franka_control")
 include("/home/merlabros2/RBE595/build/franka_control/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
@@ -359,85 +359,85 @@ include("/home/merlabros2/RBE595/build/franka_control/ament_cmake_symlink_instal
 include("/home/merlabros2/RBE595/build/franka_control/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_adapter/franka_control/srv/PandaSrv.idl" "DESTINATION" "share/franka_control/srv")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_adapter/franka_control/srv/PandaSrv.idl" "DESTINATION" "share/franka_control/srv")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_adapter/franka_control/srv/PandaSrv.idl" "DESTINATION" "share/franka_control/srv")
 
-# install(FILES "/home/merlabros2/RBE595/src/franka_control/srv/PandaSrv.srv" "DESTINATION" "share/franka_control/srv")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/src/franka_control/srv/PandaSrv.srv" "DESTINATION" "share/franka_control/srv")
+# install(FILES "/home/merlabros2/RBE595/my_custom_franka_control_backup/srv/PandaSrv.srv" "DESTINATION" "share/franka_control/srv")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/my_custom_franka_control_backup/srv/PandaSrv.srv" "DESTINATION" "share/franka_control/srv")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/srv/PandaSrv_Request.msg" "DESTINATION" "share/franka_control/srv")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/srv/PandaSrv_Request.msg" "DESTINATION" "share/franka_control/srv")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/srv/PandaSrv_Request.msg" "DESTINATION" "share/franka_control/srv")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/srv/PandaSrv_Response.msg" "DESTINATION" "share/franka_control/srv")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/srv/PandaSrv_Response.msg" "DESTINATION" "share/franka_control/srv")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/srv/PandaSrv_Response.msg" "DESTINATION" "share/franka_control/srv")
 
 # install("TARGETS" "panda_control_node" "DESTINATION" "lib/franka_control")
 include("/home/merlabros2/RBE595/build/franka_control/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/franka_control")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "launch" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "launch" "DESTINATION" "share/franka_control")
 
 # install(DIRECTORY "srv" "DESTINATION" "share/franka_control")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "srv" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/my_custom_franka_control_backup" DIRECTORY "srv" "DESTINATION" "share/franka_control")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_control" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_control" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_control" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/franka_control" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/franka_control" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/franka_control" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/franka_control/environment")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/franka_control/environment")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/franka_control/environment")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/franka_control/environment")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/franka_control/environment")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/franka_control/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/franka_control/environment")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/franka_control/environment")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/franka_control/environment")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/franka_control/environment")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/franka_control/environment")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/franka_control/environment")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/franka_control")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/franka_control")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/franka_control")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/franka_control")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/franka_control")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/franka_control")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/franka_control")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/franka_control")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/franka_control")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/franka_control")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/packages/franka_control" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/packages/franka_control" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/packages/franka_control" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/franka_control/cmake")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/franka_control/cmake")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/franka_control/cmake")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/franka_control/cmake")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/franka_control/cmake")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/franka_control/cmake")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/franka_control/cmake")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/franka_control/cmake")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/franka_control/cmake")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/franka_control/cmake")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/franka_control/cmake")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/franka_control/cmake")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/franka_control/cmake")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/franka_control/cmake")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/franka_control/cmake")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/franka_control/cmake")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/franka_control/cmake")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/franka_control/cmake")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/franka_control/cmake")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/franka_control/cmake")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/franka_control/cmake")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_core/franka_controlConfig.cmake" "/home/merlabros2/RBE595/build/franka_control/ament_cmake_core/franka_controlConfig-version.cmake" "DESTINATION" "share/franka_control/cmake")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_core/franka_controlConfig.cmake" "/home/merlabros2/RBE595/build/franka_control/ament_cmake_core/franka_controlConfig-version.cmake" "DESTINATION" "share/franka_control/cmake")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_core/franka_controlConfig.cmake" "/home/merlabros2/RBE595/build/franka_control/ament_cmake_core/franka_controlConfig-version.cmake" "DESTINATION" "share/franka_control/cmake")
 
-# install(FILES "/home/merlabros2/RBE595/src/franka_control/package.xml" "DESTINATION" "share/franka_control")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/src/franka_control/package.xml" "DESTINATION" "share/franka_control")
+# install(FILES "/home/merlabros2/RBE595/my_custom_franka_control_backup/package.xml" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/my_custom_franka_control_backup" FILES "/home/merlabros2/RBE595/my_custom_franka_control_backup/package.xml" "DESTINATION" "share/franka_control")

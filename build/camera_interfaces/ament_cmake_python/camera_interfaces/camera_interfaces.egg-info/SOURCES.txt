@@ -4,5 +4,3 @@ camera_interfaces.egg-info/PKG-INFO
 camera_interfaces.egg-info/SOURCES.txt
 camera_interfaces.egg-info/dependency_links.txt
 camera_interfaces.egg-info/top_level.txt
-camera_interfaces/srv/__init__.py
-camera_interfaces/srv/_camera_srv.py

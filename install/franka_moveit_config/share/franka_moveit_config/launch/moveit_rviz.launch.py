@@ -1,1 +1,0 @@
-/home/merlabros2/RBE595/src/franka_moveit_config/launch/moveit_rviz.launch.py

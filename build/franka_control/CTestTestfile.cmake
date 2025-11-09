@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/merlabros2/RBE595/src/franka_control
+# Source directory: /home/merlabros2/RBE595/my_custom_franka_control_backup
 # Build directory: /home/merlabros2/RBE595/build/franka_control
 # 
 # This file includes the relevant testing commands required for 
