@@ -1,0 +1,38 @@
+# franka_description/config/ros2_controllers.yaml
+controller_manager:
+  ros__parameters:
+    update_rate: 500  # Hz (Franka hardware requires high loop rate)
+
+joint_state_broadcaster:
+  type: joint_state_broadcaster/JointStateBroadcaster
+  ros__parameters: {}
+
+panda_arm_controller:
+  type: joint_trajectory_controller/JointTrajectoryController
+  ros__parameters:
+    joints:
+      - panda_joint1
+      - panda_joint2
+      - panda_joint3
+      - panda_joint4
+      - panda_joint5
+      - panda_joint6
+      - panda_joint7
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 100.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    constraints:
+      goal_time: 0.5
+      stopped_velocity_tolerance: 0.01
+      panda_joint1: { trajectory: 0.1, goal: 0.1 }
+      panda_joint2: { trajectory: 0.1, goal: 0.1 }
+      panda_joint3: { trajectory: 0.1, goal: 0.1 }
+      panda_joint4: { trajectory: 0.1, goal: 0.1 }
+      panda_joint5: { trajectory: 0.1, goal: 0.1 }
+      panda_joint6: { trajectory: 0.1, goal: 0.1 }
+      panda_joint7: { trajectory: 0.1, goal: 0.1 }

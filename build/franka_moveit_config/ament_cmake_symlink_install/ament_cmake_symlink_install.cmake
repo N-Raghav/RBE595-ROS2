@@ -310,6 +310,15 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(DIRECTORY "launch" "DESTINATION" "share/franka_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_moveit_config" DIRECTORY "launch" "DESTINATION" "share/franka_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
+
+# install(DIRECTORY "config" "DESTINATION" "share/franka_moveit_config")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_moveit_config" DIRECTORY "config" "DESTINATION" "share/franka_moveit_config")
+
+# install(FILES ".setup_assistant" "DESTINATION" "share/franka_moveit_config")
+ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_moveit_config" FILES ".setup_assistant" "DESTINATION" "share/franka_moveit_config")
+
 # install(FILES "/home/merlabros2/RBE595/build/franka_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_moveit_config" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_moveit_config" FILES "/home/merlabros2/RBE595/build/franka_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_moveit_config" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
@@ -351,12 +360,3 @@ ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_moveit_con
 
 # install(FILES "/home/merlabros2/RBE595/src/franka_moveit_config/package.xml" "DESTINATION" "share/franka_moveit_config")
 ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_moveit_config" FILES "/home/merlabros2/RBE595/src/franka_moveit_config/package.xml" "DESTINATION" "share/franka_moveit_config")
-
-# install(DIRECTORY "launch" "DESTINATION" "share/franka_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_moveit_config" DIRECTORY "launch" "DESTINATION" "share/franka_moveit_config" "PATTERN_EXCLUDE" "setup_assistant.launch")
-
-# install(DIRECTORY "config" "DESTINATION" "share/franka_moveit_config")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_moveit_config" DIRECTORY "config" "DESTINATION" "share/franka_moveit_config")
-
-# install(FILES ".setup_assistant" "DESTINATION" "share/franka_moveit_config")
-ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_moveit_config" FILES ".setup_assistant" "DESTINATION" "share/franka_moveit_config")

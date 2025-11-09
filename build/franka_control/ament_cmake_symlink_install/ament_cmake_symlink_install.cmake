@@ -373,6 +373,12 @@ ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" F
 # install("TARGETS" "panda_control_node" "DESTINATION" "lib/franka_control")
 include("/home/merlabros2/RBE595/build/franka_control/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(DIRECTORY "launch" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "launch" "DESTINATION" "share/franka_control")
+
+# install(DIRECTORY "srv" "DESTINATION" "share/franka_control")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_control" DIRECTORY "srv" "DESTINATION" "share/franka_control")
+
 # install(FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_control" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_control" FILES "/home/merlabros2/RBE595/build/franka_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_control" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

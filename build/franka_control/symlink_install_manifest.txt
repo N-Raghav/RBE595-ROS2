@@ -44,6 +44,10 @@
 /home/merlabros2/RBE595/install/franka_control/share/franka_control/srv/PandaSrv_Request.msg
 /home/merlabros2/RBE595/install/franka_control/share/franka_control/srv/PandaSrv_Response.msg
 /home/merlabros2/RBE595/install/franka_control/lib/franka_control/panda_control_node
+/home/merlabros2/RBE595/install/franka_control/share/franka_control/launch/panda_bringup.launch.py
+/home/merlabros2/RBE595/install/franka_control/share/franka_control/launch/panda_hardware_launch.py
+/home/merlabros2/RBE595/install/franka_control/share/franka_control/launch/panda_moveit_planning.launch.py
+/home/merlabros2/RBE595/install/franka_control/share/franka_control/srv/PandaSrv.srv
 /home/merlabros2/RBE595/install/franka_control/share/ament_index/resource_index/package_run_dependencies/franka_control
 /home/merlabros2/RBE595/install/franka_control/share/ament_index/resource_index/parent_prefix_path/franka_control
 /home/merlabros2/RBE595/install/franka_control/share/franka_control/environment/ament_prefix_path.sh

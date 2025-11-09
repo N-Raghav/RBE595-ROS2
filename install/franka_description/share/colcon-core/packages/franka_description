@@ -1,1 +1,1 @@
-fake_components:ros2_control
+controller_manager:fake_components:joint_state_broadcaster:joint_trajectory_controller:ros2_control:ros2_controllers

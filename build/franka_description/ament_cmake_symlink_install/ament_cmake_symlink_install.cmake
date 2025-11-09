@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "urdf" "DESTINATION" "share/franka_description")
-ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_description" DIRECTORY "urdf" "DESTINATION" "share/franka_description")
+# install(DIRECTORY "config" "urdf" "DESTINATION" "share/franka_description")
+ament_cmake_symlink_install_directory("/home/merlabros2/RBE595/src/franka_description" DIRECTORY "config" "urdf" "DESTINATION" "share/franka_description")
 
 # install(FILES "/home/merlabros2/RBE595/build/franka_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/merlabros2/RBE595/src/franka_description" FILES "/home/merlabros2/RBE595/build/franka_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/franka_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

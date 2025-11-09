@@ -3,8 +3,9 @@ project(franka_description)
 
 find_package(ament_cmake REQUIRED)
 
+# Install both config and urdf into the package share directory
 install(
-  DIRECTORY urdf
+  DIRECTORY config urdf
   DESTINATION share/${PROJECT_NAME}
 )
 

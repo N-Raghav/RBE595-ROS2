@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- ================================================================ -->
+<!--  Panda Arm URDF + ROS2 Control Integration (Arm Only)            -->
+<!--  Includes optional TCP link and control interface                -->
+<!-- ================================================================ -->
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="panda_arm_only">
+
+  <!-- ============================================================= -->
+  <!--  1. Define Xacro Arguments                                    -->
+  <!-- ============================================================= -->
+  <xacro:arg name="initial_positions_file" default="initial_positions.yaml"/>
+  <xacro:arg name="use_fake_hardware" default="true"/>
+  <xacro:arg name="robot_ip" default="172.16.0.2"/>
+
+  <!-- ============================================================= -->
+  <!--  2. Include Panda Base Model and Control Setup                -->
+  <!-- ============================================================= -->
+  <xacro:include filename="$(find moveit_resources_panda_description)/urdf/panda.urdf"/>
+  <xacro:include filename="/home/merlabros2/RBE595/src/franka_description/urdf/panda.ros2_control.xacro"/>
+
+  <!-- ============================================================= -->
+  <!--  3. Optional TCP Link (Tool Center Point)                     -->
+  <!-- ============================================================= -->
+  <link name="panda_hand_tcp"/>
+  <joint name="panda_hand_tcp_joint" type="fixed">
+    <parent link="panda_link8"/>
+    <child link="panda_hand_tcp"/>
+    <origin xyz="0 0 0.107" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ============================================================= -->
+  <!--  4. ROS2 Control Integration                                  -->
+  <!-- ============================================================= -->
+  <xacro:panda_ros2_control
+      name="panda"
+      robot_ip="${robot_ip}"
+      use_fake_hardware="${use_fake_hardware}"/>
+
+</robot>

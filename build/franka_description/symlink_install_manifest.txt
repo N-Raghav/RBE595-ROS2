@@ -1,4 +1,9 @@
+/home/merlabros2/RBE595/install/franka_description/share/franka_description/config/ros2_controllers.yaml
+/home/merlabros2/RBE595/install/franka_description/share/franka_description/urdf/hand.xacro
 /home/merlabros2/RBE595/install/franka_description/share/franka_description/urdf/panda.ros2_control.xacro
+/home/merlabros2/RBE595/install/franka_description/share/franka_description/urdf/panda.urdf.xacro
+/home/merlabros2/RBE595/install/franka_description/share/franka_description/urdf/panda_arm.xacro
+/home/merlabros2/RBE595/install/franka_description/share/franka_description/urdf/panda_arm_hand.srdf.xacro
 /home/merlabros2/RBE595/install/franka_description/share/franka_description/urdf/panda_hand_control.xacro
 /home/merlabros2/RBE595/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
 /home/merlabros2/RBE595/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description

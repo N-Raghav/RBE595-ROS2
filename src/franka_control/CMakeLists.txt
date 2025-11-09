@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.8)
 project(franka_control)
 
+# --------------------------------------------------
+# Dependencies
+# --------------------------------------------------
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
@@ -11,7 +14,7 @@ find_package(franka_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 # --------------------------------------------------
-# Generate the custom service
+# Generate custom service (PandaSrv.srv)
 # --------------------------------------------------
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PandaSrv.srv"
@@ -21,9 +24,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 ament_export_dependencies(rosidl_default_runtime)
 
 # --------------------------------------------------
-# Executable
+# Build the Panda control node
 # --------------------------------------------------
 add_executable(panda_control_node src/panda_control_node.cpp)
+
 ament_target_dependencies(panda_control_node
   rclcpp
   rclcpp_action
@@ -33,16 +37,33 @@ ament_target_dependencies(panda_control_node
   franka_msgs
 )
 
-# link node to generated interfaces
+# Link node to generated interfaces
 rosidl_target_interfaces(panda_control_node
-  ${PROJECT_NAME} "rosidl_typesupport_cpp")
+  ${PROJECT_NAME} "rosidl_typesupport_cpp"
+)
 
 # --------------------------------------------------
-# Install
+# Install Targets and Resources
 # --------------------------------------------------
+# Node
 install(TARGETS
   panda_control_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# Launch files
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
+# Service definitions (for introspection or testing)
+install(
+  DIRECTORY srv
+  DESTINATION share/${PROJECT_NAME}
+)
+
+# --------------------------------------------------
+# Package export
+# --------------------------------------------------
 ament_package()
